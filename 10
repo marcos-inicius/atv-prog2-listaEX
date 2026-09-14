@@ -1,0 +1,7 @@
+Exercicio 10 - comparando lista, pilha e fila
+
+A. Histórico do navegador -> Pilha (LIFO: volta para a última página
+B. Pessoas aguardando atendimento -> Fila (FIFO: primeiro a chegar, primeiro atendido
+C. Catálogo de produtos -> Lista (precisa acessar/ordenar em qualquer posição
+D. Desfazer no editor de texto -> Pilha (LIFO: desfaz a última ação
+E. Playlist acessada por posição -> Lista (acesso direto por índice)
