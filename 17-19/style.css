@@ -1,0 +1,103 @@
+/* 18. Estilização com CSS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f3f5f7;
+  line-height: 1.6;
+}
+
+header, footer {
+  background: #17324d;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  background: #245477;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 950px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+section, article {
+  background: white;
+  padding: 20px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+}
+
+.destaque {
+  color: #245477;
+}
+
+#inscricao {
+  border: 2px solid #245477;
+}
+
+img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #bbb;
+  padding: 9px;
+  text-align: left;
+}
+
+button {
+  background: #245477;
+  color: white;
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #17324d;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 6px 0 12px;
+  padding: 9px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}

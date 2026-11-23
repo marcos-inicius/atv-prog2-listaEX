@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- 17. Página HTML de apresentação -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso Técnico em Informática</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Curso Técnico em Informática</h1>
+    <p>Conhecimento para criar soluções digitais</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#disciplinas">Disciplinas</a>
+    <a href="#inscricao">Inscrição</a>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2 class="destaque">Conheça o curso</h2>
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Estudantes utilizando computadores">
+      <p>O curso técnico em Informática prepara estudantes para desenvolver, testar e manter sistemas e aplicações.</p>
+      <h3>O que você vai aprender?</h3>
+      <ul>
+        <li>Lógica de programação</li>
+        <li>Desenvolvimento web</li>
+        <li>Banco de dados</li>
+        <li>Redes de computadores</li>
+      </ul>
+    </section>
+
+    <section id="disciplinas">
+      <h2>Disciplinas</h2>
+      <table>
+        <tr><th>Disciplina</th><th>Carga horária</th></tr>
+        <tr><td>Programação</td><td>80 horas</td></tr>
+        <tr><td>Banco de Dados</td><td>60 horas</td></tr>
+        <tr><td>Desenvolvimento Web</td><td>60 horas</td></tr>
+      </table>
+    </section>
+
+    <article>
+      <h2>Mercado de trabalho</h2>
+      <p>O profissional pode atuar com desenvolvimento, suporte técnico e manutenção de sistemas.</p>
+    </article>
+
+    <section id="inscricao">
+      <h2>Formulário de interesse</h2>
+      <form id="formulario">
+        <label>Nome<input name="nome" required></label>
+        <label>E-mail<input name="email" type="email" required></label>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="retorno"></p>
+    </section>
+
+    <section>
+      <h2>19. Consulta de país em uma API pública</h2>
+      <p>Digite o nome de um país para consultar informações.</p>
+      <input id="pais" placeholder="Ex.: Brazil">
+      <button id="consultar">Consultar API</button>
+      <div id="resultado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Curso Técnico em Informática - Página de apresentação</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
